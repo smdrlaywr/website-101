@@ -1,0 +1,50 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    background-image: url(images/home\ cover.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .header {
+    display: flex;
+    justify-content: center;
+}
+   */
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    color: aqua;
+}
+
+.image-cover {
+    width: 400px;
+    height: 300px;
+
+}
+
+.navbar {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: gold;
+    font-size: 40px;
+
+
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}

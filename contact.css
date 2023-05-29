@@ -1,0 +1,66 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    background-image: url(images/bean.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    position: fixed;
+    /* left: 50%; */
+    border: none;
+  
+}
+legend {
+    background: darkcyan;
+    position: fixed;
+    right: 40.5%;
+    bottom: 83%;
+    color: yellow;
+}
+
+.form {
+    left: 40%;
+    background: darkkhaki;
+    font-size: 24px;
+    border: none;
+    
+}
+footer {
+
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 1rem 0.5rem 0.5rem;
+}
+button {
+    background: green;
+    color: white;
+    text-decoration: none;
+    border: 1px 1px rebeccapurple;
+    font-size: 20px;
+    
+    
+}
+.button {
+    position: fixed;
+    right: 44%;
+    margin-bottom: 20px;
+}
+
+.address {
+    padding-top: 40px;
+    right: 10px
+}
+
