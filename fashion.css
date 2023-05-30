@@ -1,0 +1,337 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Amatic SC', cursive;
+
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: darkslateblue;
+    background-image: url(images/color\ splash\ bg\ b.png);
+    background-size: contain;
+}
+
+.navmenu li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+.navmenu li:hover {
+    background-color: #553454;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: 600;
+    text-shadow: -2px -2px saddlebrown;
+   
+}
+li a:hover {
+    color: black;
+}
+
+span {
+    position: relative;
+    left: 1200px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+a img {
+    width: 40px;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 800;
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px -2px goldenrod;
+    background-image: url(images/leaves.png);
+    background-size:contain;
+}
+
+div {
+    overflow: auto;
+    width: 1300px;
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+    background-image: url(images/pngegg.png);
+    background-repeat: repeat;
+    background-position: center;
+    border-bottom: 2px solid salmon;
+    height: 2250px;
+}
+
+p {
+width: 400px;
+float:left;
+margin: 5px;
+padding: 10px;
+clear: right;
+line-height: 1.1em;
+color: antiquewhite;
+border: 2px  #553454;
+border-radius: 15px 0 15px 0;
+font-size: 25px;
+text-align: justify;
+font-weight: 550;
+}
+
+p.born {
+    position: relative;
+    left: 1px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-right: 400px;
+    background:cadetblue;
+    box-shadow:3px 3px 3px salmon;
+}
+p.intro {
+    background:#553454;
+    box-shadow: -2px -2px yellowgreen;
+}
+
+p.end {
+    position: relative;
+    left: 440px;
+    bottom: 420px;
+    background:darkred;
+    box-shadow: 0 0 12px rgb(206, 0, 0);
+
+}
+
+p.humble {
+    position: relative;
+    left: 440px;
+    bottom: 400px;
+    background:darkslategray;
+    box-shadow: 3px 3px 3px 3px yellowgreen;
+
+}
+
+p.unique {
+    position: relative;
+    right: 850px;
+    top: 120px;
+    background:darkslateblue;
+    box-shadow: 0 0 13px yellowgreen;
+
+}
+
+p.eco {
+    position: relative;
+    left: 440px;
+    bottom: 550px;
+    background:darkslategrey;
+    box-shadow: 0 0 14px paleturquoise;
+
+}
+    
+strong {
+    color: blueviolet;
+}
+img.sweatfront {
+    width: 400px;
+    display: inline;
+}
+
+img.kigali {
+    width: 400px;
+}
+img.humble {
+    position: relative;
+    width: 400px;
+}
+img.unique {
+    width: 400px;
+}
+img.eco {
+    width: 400px;
+}
+img.end {
+    width: 400px;
+}
+
+#smd {
+    position: relative;
+    bottom: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(41, 30, 9);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px -2px goldenrod;
+    letter-spacing: 0.5em;
+    
+}
+
+.clothes {
+    overflow: auto;
+    width: 1300px;
+    height: 1300px;
+    margin: 5px auto 5px auto;
+    border-radius: 10px;
+    background-image: url(images/pngegg.png);
+    background-repeat: repeat;
+    background-position: center;
+
+}
+p.tee_1 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/TGt\ v3\ EBTTA.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.tee_1:hover {
+    background-image: url(images/TG\ back\ v3\ EBTTA.jpg);
+    background-size: contain;
+}
+.clothes h2 {
+    font-size: 100px;
+    padding: 0;
+    text-align: center;
+    color: coral;
+    text-shadow: -2px -2px greenyellow;
+}
+p.tee_2 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/VINTAGE\ BLUE\ FRONT\ artistry\ v01.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.tee_2:hover {
+    background-image: url(images/VINTAGE\ BLUE\ BACK\ artistry\ v01.jpg);
+    background-size: contain;
+}
+p.tee_3 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/tension\ green\ front\ AWAKE.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.tee_3:hover {
+    background-image: url(images/tension\ green\ v2\ back.jpg);
+    background-size: contain;
+}
+p.tee_4 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/FN\ FRONT\ TIESNEVV.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.tee_4:hover {
+    background-image: url(images/FN\ BACK\ TIESNEVV.jpg);
+    background-size: contain;
+}
+p.jean_1 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/05_Front\ white\ v\ BBV1.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    text-transform: uppercase;
+}
+p.jean_1:hover {
+    background-image: url(images/05_Back\ white\ V\ BBV1.jpg);
+    background-size: contain;
+}
+p.jean_2 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/DEPT8sweatfront\ grey\ \ exile\ pain\ v.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-transform: uppercase;
+}
+p.jean_2:hover {
+    background-image: url(images/DEPT8sweatback\ grey\ \ exile\ pain\ v.jpg);
+    background-size: contain;
+}
+p.shirt_3 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/front\ white\ shirt\ v\ BBV1.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+p.shirt_3:hover {
+    background-image: url(images/back\ white\ shirt\ v\ BBV1.jpg);
+    background-size: contain;
+}
+p.tote_4 {
+    width: 600px;
+    height: 600px;
+    background-color: #553454;
+    background-image: url(images/09_Front_khaki\ long\ BBV1.jpg);
+    background-size: contain;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    text-transform: uppercase;
+}
+p.tote_4:hover {
+    background-image: url(images/09_Back_khaki\ long\ BBV1.jpg);
+    background-size: contain;
+}
+
+.jeans h2 {
+    font-size: 100px;
+    padding: 0;
+    text-align: center;
+    color:wheat;
+    text-shadow: -2px -2px greenyellow;
+
+}
+
+footer p {
+    position: relative;
+    left: 500px;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: 400;
+    font-size: 28px;
+}

@@ -43,7 +43,7 @@ body {
     text-decoration: none;
     transition: all 0.25s ease;
 }
-.menu li:hover {
+.menu a:hover {
     color: palegreen;
 }
 
@@ -67,11 +67,11 @@ li:hover ul.dropdown {
     float: none;
     width: 100%;
 }
-.dropdown:hover {
-    color: fuchsia;
-}
 .dropdown a {
     color: rgb(247, 247, 255);
+}
+.dropdown a:hover {
+    color: fuchsia;
 }
 .contact {
     
@@ -80,10 +80,21 @@ li:hover ul.dropdown {
     font-size: 30px;
     
 }
+
+span {
+    position: relative;
+    left: 1200px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+}
+a img {
+    width: 40px;
+}
 footer {
 
         position: fixed;
-        left: 50%;
+        left: 45%;
         bottom: 0;
         width: 100%;
         height: 60px;

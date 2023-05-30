@@ -17,17 +17,16 @@ body {
     background-position: center;
 }
 
-/* .header {
-    display: flex;
-    justify-content: center;
-}
-   */
+    
 h1 {
     font-size: 100px;
     font-weight: 700;
     text-align: center;
     color: aqua;
+    background-image: url(images/insects.png);
+    background-size: contain;
 }
+
 
 .image-cover {
     width: 400px;
