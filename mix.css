@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    width: 100vw;
+    background-color: salmon;
+    background-image: url(images/guitar1.png);
+    background-size: contain;
+}
+.navmenu li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    left: 350px;
+}
+.navmenu li:last-child {
+    margin-right: 20px;
+}
+
+.navmenu li:hover {
+    background-color: #553454;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: 600;
+    text-shadow: -2px -2px saddlebrown;
+   
+}
+li a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+    color: yellowgreen;
+    text-shadow: -3px -4px wheat;
+    text-align: center;
+}
+
+.mix {
+    text-align: center;
+}
+ .mix a img {
+    width: 350px;
+    box-shadow: 0 0 30px yellowgreen;
+    margin-left: 20px;
+    border: 2px solid saddlebrown;
+    border-radius: 30px;
+ }

@@ -57,7 +57,7 @@ h1 {
 }
 
 div {
-    overflow: auto;
+    
     width: 1300px;
     margin: 5px auto 5px auto;
     border-radius: 10px;
@@ -65,7 +65,8 @@ div {
     background-repeat: repeat;
     background-position: center;
     border-bottom: 2px solid salmon;
-    height: 2250px;
+    height: 1550px;
+    padding: 0;
 }
 
 p {
@@ -172,14 +173,15 @@ img.end {
 }
 
 .clothes {
-    overflow: auto;
+    overflow-x: auto;
     width: 1300px;
-    height: 1300px;
     margin: 5px auto 5px auto;
     border-radius: 10px;
     background-image: url(images/pngegg.png);
     background-repeat: repeat;
     background-position: center;
+    position: relative;
+    bottom: 600px;
 
 }
 p.tee_1 {
@@ -252,6 +254,12 @@ p.tee_4 {
 p.tee_4:hover {
     background-image: url(images/FN\ BACK\ TIESNEVV.jpg);
     background-size: contain;
+}
+
+.jeans {
+    position: relative;
+    bottom: 600px;
+
 }
 p.jean_1 {
     width: 600px;
@@ -328,10 +336,14 @@ p.tote_4:hover {
 }
 
 footer p {
+    display: inline;
     position: relative;
     left: 500px;
+    padding: 0;
     text-align: center;
     color:whitesmoke;
     font-weight: 400;
     font-size: 28px;
+    margin: 0;
+    bottom: 600px;
 }

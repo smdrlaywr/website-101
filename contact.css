@@ -1,66 +1,180 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
 body {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4f4;
-    background-image: url(images/bean.png) ;
-    background-size: cover;
-    background-position: center;
+    width: 1080px;
+    margin: 0 auto;
+    background-image: url(images/butterfly2.png);
+    background-color: black;
+
+
+}
+header {
+    z-index: 1;
+    padding: 0;
+}
+
+.navmenu li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 50px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.navmenu li:last-child {
+    margin-right: 20px;
+}
+
+.navmenu li:hover {
+    background-color: #553454;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: 600;
+    text-shadow: -2px -2px saddlebrown;
+   
+}
+li a:hover {
+    color: black;
 }
 
 main {
-    position: fixed;
-    /* left: 50%; */
-    border: none;
-  
+    height: 800px;
+}
+.article {
+    width: 1000px ;
+    height: 200px;
+}
+
+.intro p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Rock Salt', cursive;
+    color: wheat;
+}
+.intro p:hover {
+    background-color: wheat;
+    color: black;
+
+}
+
+.smd {
+    width: 180px;
+    position: relative;
+    right: 230px;
+    bottom: 200px;
+}
+
+.smd figure img {
+    width: 180px;
+    box-shadow: 0 0 5px salmon;
+}
+.smd figure figcaption {
+    color: antiquewhite;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.trees {
+    position: relative;
+    left: 1000px;
+    bottom: 510px;
+    width: 270px;
+    height: 400px;
+    text-align: center;
+}
+.trees img {
+    margin: 0%;
+    padding: 0%;
+    width: 250px;
+    height: 350px;
+}
+.trees p {
+    padding: 0%;
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    color: wheat;
+    text-shadow: -2px -2px salmon;
+    padding: 0;
+    margin: 0;
+    background-color:#22c1c3;
+    border: #22c1c3;
+    border-radius: 30px;
+    box-shadow: 0 0 4px salmon;
+    background-image: url(images/color\ splash\ bg\ b.png);
+    background-size: contain;
+}
+.form {
+    width: 500px;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    background-image: url(images/leaves.png);
+    
+    
+}
+fieldset {
+    background-size: contain;
+    background-color: salmon ;
+
+}
+
+
+p label {
+    font-size: 20px;
+    font-weight: 800;
+    color: saddlebrown;
+    text-shadow: -1px -1px yellowgreen;
 }
 legend {
-    background: darkcyan;
-    position: fixed;
-    right: 40.5%;
-    bottom: 83%;
-    color: yellow;
+    font-size: 30px;
+    color: wheat;
+    border: 2px solid slateblue;
+    border-radius: 10px;
+    background-image:linear-gradient(330deg, #22c1c3, #fdbb2d );
+    text-shadow: -1px 0 0 yellowgreen;
+    font-weight: 600;
 }
 
-.form {
-    left: 40%;
-    background: darkkhaki;
-    font-size: 24px;
-    border: none;
-    
+input {
+    font-size: 18px;
+    background-color: wheat;
 }
-footer {
+input:hover {
+    background-color: whitesmoke;
+}
+textarea {
+    font-size: 18px;
+    background-color: wheat;
 
-    position: fixed;
-    left: 45%;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    padding: 1rem 0.5rem 0.5rem;
+}
+
+textarea:hover{
+    background-color: whitesmoke;
+
 }
 button {
-    background: green;
-    color: white;
-    text-decoration: none;
-    border: 1px 1px rebeccapurple;
+    background-color: #fdbb2d;
     font-size: 20px;
-    
-    
+    position: relative;
+    left: 100px;
+    bottom: 150px;
 }
-.button {
-    position: fixed;
-    right: 44%;
-    margin-bottom: 20px;
+button:hover {
+    background-color: cadetblue;
 }
+.footer{
+    width: 500px;
+    position: relative;
+    left: 450px;
+    top: 300px;
+}
+footer {
+    position:fixed;
+    color: coral;
+   
 
-.address {
-    padding-top: 40px;
-    right: 10px
 }
-
